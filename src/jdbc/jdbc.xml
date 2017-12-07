@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<a>
+	<user>root</user>
+	<url>jdbc:mysql://127.0.0.1:3306/db_book</url>
+	<name>com.mysql.jdbc.Driver</name>
+	<password>root</password>
+</a>
