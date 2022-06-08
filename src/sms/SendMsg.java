@@ -1,10 +1,10 @@
-package sms;  
-  
-import org.apache.commons.httpclient.Header;  
-import org.apache.commons.httpclient.HttpClient;  
-import org.apache.commons.httpclient.NameValuePair;  
-import org.apache.commons.httpclient.methods.PostMethod;  
-/**  
+package sms;
+
+import org.apache.commons.httpclient.Header;
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.NameValuePair;
+import org.apache.commons.httpclient.methods.PostMethod;
+/**
  * 测试发送短信  
  *   
  * @author zrz  
@@ -15,7 +15,7 @@ public class SendMsg {
 	{
 
 	HttpClient client = new HttpClient();
-	PostMethod post = new PostMethod("http://utf8.api.smschinese.cn"); 
+	PostMethod post = new PostMethod("http://utf8.api.smschinese.cn");
 	post.addRequestHeader("Content-Type","application/x-www-form-urlencoded;charset=utf-8");//在头文件中设置转码
 	NameValuePair[] data ={ new NameValuePair("Uid", "张承志1994"),  
 				            new NameValuePair("Key", "b3fdbe851e48a5023f77"),  

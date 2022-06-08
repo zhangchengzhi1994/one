@@ -9,6 +9,7 @@ public class Test {
 		System.out.println();
 		System.out.println("----------------分割线--------------");
 		
+		
 		EnumTest test = EnumTest.TUE;
 		switch (test) {
         case MON:
@@ -22,5 +23,7 @@ public class Test {
             System.out.println(test);
             break;
         }
-	}
+        
+        EnumTest enumTest;
+    }
 }
