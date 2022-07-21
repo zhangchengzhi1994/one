@@ -12,7 +12,6 @@ import java.util.stream.Stream;
 public class LambdaTest {
     public static void main(String[] args) {
         LambdaTest lambdaTest = new LambdaTest();
-    
         LTest hh = lambdaTest::hh2;
         String sout = hh.sout("11");
         LambdaTest.what("哈哈哈哈", hh);
