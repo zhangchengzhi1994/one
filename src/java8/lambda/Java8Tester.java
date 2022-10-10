@@ -4,6 +4,8 @@ import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUnit;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.lang.Opt;
+import jdk.nashorn.internal.ir.debug.PrintVisitor;
+import log.Test;
 import lombok.Data;
 
 import java.util.Date;
@@ -14,7 +16,7 @@ public class Java8Tester {
     
     public static void main(String args[]) {
         String salutation = "Hello! ";
-        GreetingService greetService1 = message -> {
+        GreetingService greetService1 = (message) -> {
             System.out.println(salutation + message);
         };
         String s = null;
@@ -33,6 +35,10 @@ public class Java8Tester {
                 .map(User::getSchool)
                 .map(User.School::getAddress).get();
         System.out.println(addressValue);
+    }
+    
+    private static void Test(GreetingService greetingService) {
+        greetingService.sayMessage("111");
     }
     
     interface GreetingService {
