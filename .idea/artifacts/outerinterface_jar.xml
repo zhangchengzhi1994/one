@@ -70,7 +70,6 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/jdbc/ojdbc6/11.2.0.4/ojdbc6-11.2.0.4.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/ha/simplefan/19.3.0.0/simplefan-19.3.0.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/netbeans/external/org-apache-commons-httpclient/RELEASE123/org-apache-commons-httpclient-RELEASE123.jar" path-in-jar="/" />
-      <element id="library" level="project" name="LandTaxFileChecker" />
     </root>
   </artifact>
 </component>
